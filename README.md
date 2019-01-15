@@ -4,12 +4,12 @@ This plugin provides options for Journal Managers to browse users by recent acti
 
 ## Requirements
 
-* OJS 2.4.9 or later
+* OJS 2.4.9 or later 2.x release (or, OJS 2.4.8 + [ojs#1994](https://github.com/pkp/ojs/pull/1994))
 * PHP 5.3 or later
 
 ## Installation
 
-Install this as a "generic" plugin in OJS.  To install manually via the filesystem, extract the contents of this archive to a directory (e.g. "recentUsers") under "plugins/generic" in your OJS root.  To install via Git submodule, target that same directory path: `git submodule add https://github.com/ulsdevteam/pkp-recentUsers plugins/generic/recentUsers` and `git submodule update --init --recursive plugins/generic/recentUsers`.  Run the upgrade script to register this plugin, e.g.: `php tools/upgrade.php upgrade`
+Install this as a "generic" plugin in OJS.  To install manually via the filesystem, extract the contents of this archive to a "recentUsers" directory under "plugins/generic" in your OJS root.  To install via Git submodule, target that same directory path: `git submodule add https://github.com/ulsdevteam/pkp-recentUsers plugins/generic/recentUsers` and `git submodule update --init --recursive plugins/generic/recentUsers`.  Run the upgrade script to register this plugin, e.g.: `php tools/upgrade.php upgrade`
 
 ## Configuration
 
